@@ -114,6 +114,7 @@ powershell
 Test-NetConnection -ComputerName 172.24.64.69 -Port 30259
 Expected:
 TcpTestSucceeded : True
+
 8. Accessing the Application
 Open in Windows browser:
 https://demo.local:30259
