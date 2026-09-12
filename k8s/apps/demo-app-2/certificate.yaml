@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: demo-app-2-tls
+  namespace: demo-app-2
+spec:
+  secretName: demo-app-2-tls
+  issuerRef:
+    name: selfsigned
+    kind: ClusterIssuer
+  commonName: demo2.local
+  dnsNames:
+    - demo2.local
