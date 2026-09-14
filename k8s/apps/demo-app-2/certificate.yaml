@@ -1,7 +1,7 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: demo-app-2-tls
+  name: demo-app-2
   #namespace: demo-app-2
 spec:
   secretName: demo-app-2-tls
