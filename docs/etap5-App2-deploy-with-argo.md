@@ -112,3 +112,6 @@ Expected result:
 - Application is **Healthy** and **Synced** in ArgoCD  
 
 This completes the deployment of the second application in Stage 2.
+
+
+Investigate cert-manager / ArgoCD sync drift for demo-app-2
